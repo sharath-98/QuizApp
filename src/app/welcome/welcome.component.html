@@ -1,1 +1,20 @@
-<p>welcome works!</p>
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welcome to your Quiz</h1>
+    <p class="col-md-8 fs-4">
+        This quiz will test you angular and typscript skills. You will have a total of 9 questions.
+        Each question earns you 10 points.
+    </p>
+    <h4>Rules:</h4>
+    <ol>
+        <li>Correct Question: +10 points</li>
+        <li>Incorrect Question: -10 points</li>
+        <li>Each question will be timed for 10 seconds</li>
+        <li>Refreshing the page will reset the quiz</li>
+    </ol>
+    <h1 class="text-center">All the best !!!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter you name:</label>
+        <input type="text" class="form-control"/>
+        <button class="btn btn-primary my-2" routerLink='/question'>Start Quiz</button>
+    </div>
+</div>
